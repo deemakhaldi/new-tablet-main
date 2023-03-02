@@ -1,0 +1,42 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "bisan's ipad",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "deviceId": "00008030-0012254E3604C02E",
+      "runTestsOnDevice": false
+    },
+    {
+      "name": "new_tablet",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "new_tablet (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "new_tablet (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "Flutter web",
+      "request": "launch",
+      "type": "dart",
+      "args": ["-d", "chrome", "--web-port", "4200"]
+    },
+    {
+      "name": "Flutter",
+      "program": "lib/main.dart",
+      "request": "launch",
+      "type": "dart"
+    }
+  ]
+}
